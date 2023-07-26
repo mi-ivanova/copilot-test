@@ -1,3 +1,5 @@
+const fs = require('fs');
+
 function readAndParseFile(filePath) {
     // check if filePath exists
     if (fs.existsSync(filePath)) {
